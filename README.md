@@ -1,12 +1,35 @@
-# React + Vite
+# Web Desa Wisata Surjo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React website project for promoting **Desa Wisata Surjo** (tourism village) — highlighting local attractions, culture, history, and UMKM.
 
-Currently, two official plugins are available:
+## Features
+- Multi-page SPA with React Router
+- UI animations and interactions
+- Carousel/slider sections
+- Responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
+- React 19 + Vite
+- TailwindCSS
+- React Router
+- Framer Motion
+- Swiper
 
-## Expanding the ESLint configuration
+## Run locally
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+This project includes a `vercel.json` rewrite so direct navigation (e.g. `/wisata`) works on Vercel.
+
+## Portfolio notes
+- Building a content-focused website with routing + animation
+- Deploying a Vite SPA correctly (rewrites)
